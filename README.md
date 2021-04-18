@@ -1,40 +1,44 @@
-# *Guitar*
+# *Guitar Master*
 
-![Лого/Визия на проекта](path_to_logo.png)
+Мечтали ли сте някога да се научите да свирите на китара? Guitar Master ще ви помогне да сбъднете мечтата си!
 
-*Кратко описание на проекта - с две изречения опишете проекта си.* (задължително)
+## Как да си сваля и използвам проекта?
 
-## Презентация или документация или нещо друо (не е задължително)
-[Линк към ресурса]](link)
-
-## Как да си сваля и използвам проекта? (задължително)
+### Необходими материали
+[Материали](https://github.com/Boyko03/guitar_project/blob/main/Hardware/guitar.csv)
 
 ### Инструкции за сваляне
-*Тук опишете стъпка по стъпка как потребител, който си няма понятие от софтуер в github, да си свали и използва проекта*
 
-1) ...
-2) ...
-3) ...
+1) Клонирайте GitHub хранилището локално
+```bash
+  git clone https://github.com/Boyko03/guitar_project.git
+```
+Или го изтеглете като zip
+[https://github.com/Boyko03/guitar_project/archive/refs/heads/main.zip](https://github.com/Boyko03/guitar_project/archive/refs/heads/main.zip)
 
 ### Инструкции за инсталация
-*Тук опишете стъпка по стъпка как потребител, който си няма понятие от софтуер в github, да си инсталира проекта ви*
 
-1) ...
-2) ...
-3) ...
+1) В директория Software/main се намира програмата, която изпълнява Arduino Uno.
+2) Заредете програмата във вашето Ардуино
 
 ### Инструкции за стартиране на проекта
-*Тук опишете стъпка по стъпка как потребител, който си няма понятие от софтуер в github, да стартира проекта ви*
 
-1) ...
-2) ...
-3) ...
+1) Препоръчително е елементите да се запоят на платките, приложени в хранилището, но схемата може да се пресъздаде и на бредборд.
+2) При правилно свързване на елементите, по грифа ще премине "змия", а на LCD екранчето ще се покаже меню, което се управлява с бутоните.
+3) Guitar Master може да показва ноти и акорди, а също и песни.
 
-## Използвани технологии (задължително)
+## Използвани технологии
 
-* [KiCad](https://kicad.org/) - *описание на технологията*
-* [Arduino](https://www.arduino.cc/) - *описание на технологията*
+* [KiCad](https://kicad.org/) - програма за чертаене на електрически схеми и за проектиране на платки
+* [Arduino](https://www.arduino.cc/) - Микроконтролер
 
 ## Информация за авторите на проекта
 
 * **Бойко Георгиев** - *програмист, дизаинер, хардуерист* - [Boyko03](https://github.com/Boyko03)
+
+## Снимки и демо
+[Demo](https://github.com/Boyko03/guitar_project/blob/main/Presentation/demo.mp4)
+![Guitar Master](https://github.com/Boyko03/guitar_project/blob/main/Presentation/guitar_master.jpeg)
+![Note Do](https://github.com/Boyko03/guitar_project/blob/main/Presentation/note_do.jpeg)
+![Chord La Major](https://github.com/Boyko03/guitar_project/blob/main/Presentation/chord_la_major.jpeg)
+[Electric Schema](https://github.com/Boyko03/guitar_project/blob/main/Hardware/guitar.pdf)
