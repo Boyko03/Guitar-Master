@@ -34,7 +34,7 @@
 
 ## Информация за авторите на проекта
 
-* **Бойко Георгиев** - *програмист, дизаинер, хардуерист* - [Boyko03](https://github.com/Boyko03)
+* **Бойко Георгиев** - *програмист, дизайнер, хардуерист* - [Boyko03](https://github.com/Boyko03)
 
 ## Снимки и демо
 [Demo](https://github.com/Boyko03/guitar_project/blob/main/Presentation/demo.mp4)
